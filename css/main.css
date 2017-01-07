@@ -5,11 +5,25 @@
   box-sizing : border-box;
 }
 
-.profile{
+body{
+
+  background: #517fa4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #517fa4 , #243949); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #517fa4 , #243949); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .boxes{
-  border: 1px solid black;
+  border: 1px ridge #537979;
   height: 15em;
 
+}
+.img-circle-profile {
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    bottom: 10px;
+}
+.profile-name{
+font-family: 'Lato', sans-serif;
 }
