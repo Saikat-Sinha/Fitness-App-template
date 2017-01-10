@@ -18,12 +18,16 @@ body{
 
 }
 .img-circle-profile {
-    border-radius: 50%;
+    border-radius: 10%;
     position: absolute;
-    left: 30px;
-    top: 40px;
+    left: 20%;
+    top: 30px;
     bottom: 10px;
+    display: inline-block;
 }
 .profile-name{
 font-family: 'Lato', sans-serif;
+display: inline-block;
+float: right;
+padding: 60% 20% 0% 10%;
 }
