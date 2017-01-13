@@ -24,13 +24,14 @@ body{
 }
 
 .profile-header-img {
-    padding: 54px;
+    padding: 45px;
 }
 
 .profile-header-img > img.img-circle {
-    width: 120px;
-    height: 120px;
-    border: 2px solid #51D2B7;
+    width: 160px;
+    height: 160px;
+    border: 2px solid #000d1a;
+    border-radius: 50%;
 }
 
 .profile-header {
@@ -47,13 +48,8 @@ body{
 }
 
 .label.label-default.rank-label {
-    background-color: rgb(81, 210, 183);
+    background-color: #e6f2ff;
     padding: 5px 10px 5px 10px;
     border-radius: 27px;
-}
-.profile-name{
-font-family: 'Lato', sans-serif;
-display: inline-block;
-float: right;
-padding: 60% 20% 0% 10%;
+    border: 2px solid #000d1a;
 }
