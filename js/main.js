@@ -21,6 +21,7 @@ $(function () {
             title: {
                 text: null
             },
+            
             labels: {
                 formatter: function () {
                     return this.value ;
